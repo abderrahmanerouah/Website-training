@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/****************** nav **************/
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro
+}
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+nav img {
+    width: 60px;
+    margin-right: 20px;
+}
+nav ul li {
+    margin-right: 10px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #fe6903;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+/**************** header ***************/
+.select {
+height: 100vh;
+text-align: center;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+animation: example 10s infinite;
+
+}
+@keyframes example {
+    0% {background:url("img/3682.jpg")center/cover no-repeat fixed }
+    50% {background: url("img/1.jpg")center/cover no-repeat fixed }
+    100% {background:url("img/3682.jpg")center/cover no-repeat fixed }
+  }
+.btn_header{
+    background-color: gray;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn_header a{
+   color: white;
+}
+.container_header {
+line-height: 2;
+}
+.p_header{
+    margin-bottom: 30px;
+}
+.title_header {
+    font-size: 40px;
+}
+.sect3{
+    font-size: 50px;
+}
+
+.title_sect {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 48px;
+
+    
+}
+
+.sect2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}    
+
+.card {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px;
+
+}
+.card p{
+    text-align: center;
+}
+.nous{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.nous_title{
+    margin-top: 100px;
+    text-align: center;
+    max-width: 400px;
+}
+
