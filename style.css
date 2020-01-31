@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+.logom {
+    display: none;
+}
 /****************** nav **************/
 nav {
     display: flex;
@@ -105,6 +108,7 @@ line-height: 2;
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 .nous_title{
     margin-top: 100px;
@@ -114,6 +118,7 @@ line-height: 2;
 .sect3img {    
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .imgr {
     margin: 40px;
@@ -126,6 +131,7 @@ line-height: 2;
 .equipes {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .eq {
     margin: 60px;
@@ -138,5 +144,140 @@ line-height: 2;
 .eq h3 {
     margin-top: 10px;
 }
+.client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.f {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 10px;
+}
+.f:hover {
+box-shadow: 0px 10px 10px black;  
+width: 400px;
+}
+.sect6{
+background: url(img/5.jpg);
+
+}
+.tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+.pt{
+    margin-top: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px;
+    
+}
+.it {
+    width: 300px;
+    height: 364px;
+    background-color: whitesmoke;
+    
+}
+.it-t{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: #fc6701;
+    padding:6px;
+}
+.it-p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+    background-color: gainsboro;
+}
+.ita{
+    text-align: center;
+    padding: 25px;
+   border: 1px solid gainsboro;
+}
+.it:nth-child(5){
+    margin-bottom: 30PX;
+}
+.itbtn {
+    height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   color: white;
+}
 
 
+.foter {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    background-color: #fc6701;
+}
+.cont1{
+    max-width: 800px;
+}
+.cont2{
+    width: auto;
+
+}
+.to{
+    margin-top: inherit;
+    border: 1px solid gray;
+    background-color:rgba(0,0,0,0.3);
+    padding: 5px 10px;
+    border-radius: 10px;
+
+   
+}
+.to a {
+    color: white;
+    font-size: 24px;
+}
+@media screen and (max-width: 375px) {
+
+body {
+    margin: 0px auto;
+    padding: 5px auto ;
+    overflow-x: hidden;
+}
+#top{
+    display: none;
+}
+.nous_img img{
+    width: 340px !important;
+  }
+
+.foter{
+    padding: 30px 5px;
+    display: flex;
+    justify-content: space-around;
+   flex-direction: column;
+}
+.logom {
+    display: block;
+    width: 130px;
+    position: absolute;
+    right:30%;
+    bottom: 75%;
+    
+}
+
+}
